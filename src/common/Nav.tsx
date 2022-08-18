@@ -8,6 +8,7 @@ import Projects from "../assets/img/portfolio.png";
 import Skills from "../assets/img/Skills.png";
 import Work from "../assets/img/work.png";
 import Jsprojects from "../assets/img/jsprojects.png";
+import { Link } from "react-router-dom";
 
 
 const Nav = () => {
@@ -16,19 +17,90 @@ const Nav = () => {
     <div>
       <div id="navigation">
         <ul>
-          <li data-aos="zoom-in">
-            <img src={Home} alt="home" />
-          </li>
-          <li data-aos="zoom-in">
-            <img src={About} alt="about" />
-          </li>
-          <li data-aos="zoom-in">
-            <img src={Skills} alt="services" />
-          </li>
-          <li data-aos="zoom-in">
-            <img src={Work} alt="work" />
-          </li>
+          <Link to="/">
+            <li data-aos="zoom-in">
+              <img src={Home} alt="home" />
+            </li>
+          </Link>
+          <Link to="/about">
+            <li data-aos="zoom-in">
+              <img src={About} alt="about" />
+            </li>
+          </Link>
+          <Link to="/services">
+            <li data-aos="zoom-in">
+              <img src={Skills} alt="services" />
+            </li>
+          </Link>
+          <Link to="/work">
+            <li data-aos="zoom-in">
+              <img src={Work} alt="work" />
+            </li>
+          </Link>
+          <Link to="/education">
+            <li data-aos="zoom-in">
+              <img src={Education} alt="education" />
+            </li>
+          </Link>
+          <Link to="/projects">
+            <li data-aos="zoom-in">
+              <img src={Jsprojects} alt="jsprojects" />
+            </li>
+          </Link>
+          <Link to="/portfolio">
+            <li data-aos="zoom-in">
+              <img src={Projects} alt="portfolio" />
+            </li>
+          </Link>
+          <Link to="/contact">
+            <li data-aos="zoom-in">
+              <img src={Contact} alt="contact" />
+            </li>
+          </Link>
         </ul>
+      </div>
+
+      <div id="navigation-mob">
+        <h1 data-aos="fade-in">
+          <Link to="/">Enes AGIR</Link>
+        </h1>
+        <i
+          data-aos="fade-in"
+          className={visible ? "fa fa-close" : "fa fa-bars"}
+          onClick={() => setVisible(!visible)}
+        ></i>
+        {visible ? (
+          <ul
+            className="list-unstyled"
+            data-aos="slide-down"
+            data-aos-duration="700"
+          >
+            <Link to="/">
+              <li>Home</li>
+            </Link>
+            <Link to="/about">
+              <li>About</li>
+            </Link>
+            <Link to="/services">
+              <li>Skills</li>
+            </Link>
+            <Link to="/work">
+              <li>Work</li>
+            </Link>
+            <Link to="/education">
+              <li>Education</li>
+            </Link>
+            <Link to="/projects">
+              <li>Projects</li>
+            </Link>
+            <Link to="/portfolio">
+              <li>Portfolio</li>
+            </Link>
+            <Link to="/contact">
+              <li>Contact</li>
+            </Link>
+          </ul>
+        ) : null}
       </div>
     </div>
   )
