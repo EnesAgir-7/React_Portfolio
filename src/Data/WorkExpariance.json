@@ -1,0 +1,23 @@
+[
+  {
+    "id":1,
+    "year":"May, 2021 - Aug, 2022",
+    "companyname":"Vidinli Software",
+    "position":"Full-Stack Developer",
+    "desc":"- Software design and development, Web screen design and coding,\n Troubleshooting, bug tracking, Feature development, REST API usage and \n integration designed and developed a web shopping application design"
+  },
+  {
+    "id":2,
+    "year":"June, 2019 - July, 2019",
+    "companyname":"Strategy Sixty Four Pvt. Ltd.",
+    "position":"Software Developer Intern",
+    "desc":"- Worked primarily on progressive web apps; Played a key role in the \n software development team, worked in a research-oriented \n approach building experience and expertise across varied"
+  },
+  {
+    "id":3,
+    "year":"Aug, 2016 - Aug, 2020",
+    "companyname":"Saakar.",
+    "position":"Project Coordinator",
+    "desc":"- Coordinated campaigns and events at a youth social responsibility. \n Handled and coordinated logistics and transport while managing  \n varied resource "
+  }
+]
