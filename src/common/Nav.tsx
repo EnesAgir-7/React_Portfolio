@@ -27,9 +27,9 @@ const Nav = () => {
               <img src={About} alt="about" />
             </li>
           </Link>
-          <Link to="/services">
+          <Link to="/skills">
             <li data-aos="zoom-in">
-              <img src={Skills} alt="services" />
+              <img src={Skills} alt="skills" />
             </li>
           </Link>
           <Link to="/work">
@@ -81,7 +81,7 @@ const Nav = () => {
             <Link to="/about">
               <li>About</li>
             </Link>
-            <Link to="/services">
+            <Link to="/skills">
               <li>Skills</li>
             </Link>
             <Link to="/work">

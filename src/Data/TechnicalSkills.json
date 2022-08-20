@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "course": "Frontend Framework",
+    "tools": "React | Angular | Flutter"
+  },
+  {
+    "id": 2,
+    "course": "Backend Framework",
+    "tools": "Django | NodeJS"
+  },
+  {
+    "id": 3,
+    "course": "Cloud",
+    "tools": "AWS | Firebase | Docker"
+  },
+  {
+    "id": 4,
+    "course": "Database",
+    "tools": "SQL | MySQL | MongoDB |Neo4j"
+  },
+  {
+    "id": 5,
+    "course": "Programing Language",
+    "tools": "Python | Javascript | Typescript | Java | C# | C++ | Html | Css"
+  }
+]
