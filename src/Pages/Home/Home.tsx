@@ -38,20 +38,20 @@ const Home = () => {
 
           <div className="col-sm-5">
             <div className="imgsec">
-              <div className="bgblack" data-aos="fade-right"></div>
-              <img src={profileimg} data-aos="flip-right" alt="Enes Agir" className="img-fluid" />
+              <div className="bgblack" data-aos="fade-left"></div>
+              <img src={profileimg} data-aos="flip-left" alt="Enes Agir" className="img-fluid" />
               <div className="socialmedia">
                 <a href="https://www.linkedin.com/in/enes-agir-a0b926200/" target="_blank" rel="noreferrer">
-                  <img src={Linkedinicon} alt="linkedin" data-aos="fade-right" data-aos-delay="1000" />
+                  <img src={Linkedinicon} alt="linkedin" data-aos="fade-left" data-aos-delay="1000" />
                 </a>
                 <a href="https://github.com/EnesAgir-7" target="_blank" rel="noreferrer">
-                  <img src={Githubicon} alt="github" data-aos="fade-right" data-aos-delay="1000" />
+                  <img src={Githubicon} alt="github" data-aos="fade-left" data-aos-delay="1000" />
                 </a>
                 <a href="https://www.instagram.com/enes.agir7/" target="_blank" rel="noreferrer">
-                  <img src={Instagramicon} alt="instagram" data-aos="fade-right" data-aos-delay="1000" />
+                  <img src={Instagramicon} alt="instagram" data-aos="fade-left" data-aos-delay="1000" />
                 </a>
                 <a href="mailto:enes.agir.7@gmail.com" target="_blank" rel="noreferrer">
-                  <img src={MailIcon} alt="email" data-aos="fade-right" data-aos-delay="1000" />
+                  <img src={MailIcon} alt="email" data-aos="fade-left" data-aos-delay="1000" />
                 </a>
               </div>
             </div>
