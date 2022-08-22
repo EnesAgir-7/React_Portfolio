@@ -2,16 +2,30 @@
 #education {
   padding-top: 0%;
 }
+
+@keyframes Slider {
+  0%{
+    top: 200px;
+  }
+  60%{
+    top: 60px;
+  }
+  100%{
+    top: 0px;
+  }
+}
+
 #education h5 {
   margin-bottom: 10px;
   line-height: 22px;
+  animation: Slider 3s linear;
 }
+
 #education .educationblock {
   border-bottom: 3px solid rgb(5, 5, 5);
   margin-bottom: 10px;
   padding: 20px 0px;
 }
-
 
 #education .educationblock:last-child {
   border-bottom: 0px;
@@ -39,16 +53,6 @@
   color: #fff;
   border-radius: 0px;
 }
-/* #education .nav-tabs .nav-link.active::after{content: '';
-    display: block;
-    position: absolute;
-    top: 10px;
-    left: 100%;
-    width: 0;
-    height: 0;
-    border-color: transparent transparent transparent red;
-    border-style: solid;
-    border-width: 10px;} */
 
 @media (max-width: 767px) {
   #education .nav-tabs .nav-link {
