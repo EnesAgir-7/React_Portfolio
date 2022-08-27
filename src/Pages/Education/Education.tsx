@@ -4,34 +4,52 @@ import services from "../../Data/Education.json";
 
 const Education = () => {
   return (
-    <div id="education">
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-11 offset-sm-1">
-            <div className="tab-content">
-              <div className="tab-pane active" id="education">
-                {services.map((item, i) => (
-                <div className="educationblock" key={i}>
-                  <div className="row" key={i}>
-                    <div className="col-sm-7">
-                      <h5 data-aos="fade-left">
-                        {item.coursename}
-                      </h5>
-                      <h6>{item.courseyear}</h6>
-                    </div>
-                    <div className="col-sm-5">
-                      <div className="educationright">
-                        <h5 data-aos="fade-left">{item.institute} </h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                ))}
+    <div className="education">
+        <div className="list">
+          <h2 data-aos="fade-down">Education</h2>
+        <div className="scroll">
+          <ul>
+            <li>
+              <div className="white" data-aos="fade-right">
+                <h3 className="heading ">SRH University Heidelberg</h3>
+                <p>Master Science Applied Computer Science</p>
+                <span className="date">2021-2023</span>
               </div>
-
-            </div>
-            <br />
-          </div>
+              <span className="circle" data-aos="fade-down"></span>
+            </li>
+            <li>
+              <div className="white" data-aos="fade-left">
+                <h3 className="heading ">Amity University Haryana</h3>
+                <p>Bachelor of Tech Computer Science and Engineering </p>
+                <span className="date">2016-2020</span>
+              </div>
+              <span className="circle" data-aos="fade-down"></span>
+            </li>
+            <li>
+              <div className="white" data-aos="fade-right">
+                <h3 className="heading ">Amity University Haryana</h3>
+                <p>Minor Degree in Journalism </p>
+                <span className="date">2017-2020</span>
+              </div>
+              <span className="circle" data-aos="fade-down"></span>
+            </li>
+            <li>
+              <div className="white" data-aos="fade-left">
+                <h3 className="heading ">Jamia Hamdard University</h3>
+                <p>English Course </p>
+                <span className="date">2015</span>
+              </div>
+              <span className="circle" data-aos="fade-down"></span>
+            </li>
+            <li>
+              <div className="white" data-aos="fade-right">
+                <h3 className="heading ">Amity University Haryana</h3>
+                <p> High School</p>
+                <span className="date">2009-2014</span>
+              </div>
+              <span className="circle" data-aos="fade-down"></span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
