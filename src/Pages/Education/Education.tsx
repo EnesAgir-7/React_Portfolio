@@ -10,15 +10,15 @@ const Education = () => {
         <div className="scroll">
           <ul>
             <li>
-              <div className="white" data-aos="fade-right">
+              <div className="white" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="1500">
                 <h3 className="heading ">SRH University Heidelberg</h3>
-                <p>Master Science Applied Computer Science</p>
+                <p>Master of Science Applied Computer Science</p>
                 <span className="date">2021-2023</span>
               </div>
               <span className="circle" data-aos="fade-down"></span>
             </li>
             <li>
-              <div className="white" data-aos="fade-left">
+              <div className="white" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="3500">
                 <h3 className="heading ">Amity University Haryana</h3>
                 <p>Bachelor of Tech Computer Science and Engineering </p>
                 <span className="date">2016-2020</span>
@@ -26,7 +26,7 @@ const Education = () => {
               <span className="circle" data-aos="fade-down"></span>
             </li>
             <li>
-              <div className="white" data-aos="fade-right">
+              <div className="white" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="7500">
                 <h3 className="heading ">Amity University Haryana</h3>
                 <p>Minor Degree in Journalism </p>
                 <span className="date">2017-2020</span>
